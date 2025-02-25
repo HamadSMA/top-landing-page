@@ -93,8 +93,8 @@ blockquote {
   color: #b7bbc1;
 }
 
-.description-box a:link,
-.description-box a:visited {
+.btn:link,
+.btn:visited {
   display: inline-block;
   background-color: #3882f6;
   color: #fff;
@@ -103,6 +103,11 @@ blockquote {
   text-decoration: none;
   padding: 8px 30px;
   border-radius: 8px;
+}
+
+.cta-btn:link,
+.cta-btn:visited {
+  border: 2px solid #fff;
 }
 
 .secondary-heading {
@@ -157,4 +162,36 @@ blockquote {
 .quote-content {
   max-width: 800px;
   margin-left: 250px;
+}
+
+.cta-box {
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  max-width: 1000px;
+  padding: 50px 120px;
+  border-radius: 10px;
+}
+
+.cta-text-main,
+.cta-text-sub {
+  color: #fff;
+}
+
+.cta-text-main {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.cta-text-sub {
+  font-size: 18px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 50px;
 }
