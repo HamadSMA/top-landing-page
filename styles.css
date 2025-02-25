@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.section-one {
+  background-color: #1f2937;
+}
+
+.nav {
+  padding: 30px 150px;
+  margin-bottom: 50px;
+}
+
+.nav-logo {
+  margin-right: auto;
+  font-size: 24px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 30px 150px;
+}
+
+.main-heading {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  color: #f9faf8;
+}
+
+.text-content {
+  max-width: 480px;
+}
+
+.nav-link,
+.secondary-text {
+  font-size: 18px;
+}
+
+.secondary-text {
+  color: #e5e7eb;
+}
+
+.description-box .secondary-text {
+  margin-bottom: 20px;
+}
+
+.hero-img {
+  border-radius: 20px;
+}
+
+.nav-logo a:link,
+.nav-logo a:visited {
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+.nav-logo a:hover,
+.nav-logo a:active {
+  color: #b7bbc1;
+}
+
+.nav-link a:link,
+.nav-link a:visited {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.nav-link a:hover,
+.nav-link a:active {
+  color: #b7bbc1;
+}
+
+.description-box a:link,
+.description-box a:visited {
+  display: inline-block;
+  background-color: #3882f6;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 8px 30px;
+  border-radius: 8px;
+}
