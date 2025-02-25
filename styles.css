@@ -15,6 +15,11 @@ ul {
   gap: 30px;
 }
 
+blockquote {
+  font-size: 36px;
+  font-weight: 200;
+}
+
 .section-one {
   background-color: #1f2937;
   margin-bottom: 50px;
@@ -135,4 +140,21 @@ ul {
   text-align: center;
   font-size: 18px;
   color: #444;
+}
+
+.section-three {
+  background-color: #e5e7eb;
+  padding: 50px 200px;
+}
+
+.section-three p {
+  text-align: right;
+  margin-right: 50px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.quote-content {
+  max-width: 800px;
+  margin-left: 250px;
 }
